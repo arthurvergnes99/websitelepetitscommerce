@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paiement sécurisé</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+  <header>
+    <h1>Le Petit Commerce</h1><br>
+
+
+    <nav>
+      <form>
+        <input type="text" placeholder="Rechercher...">
+        <button type="submit">Rechercher</button>
+      </form>
+      <a href="file:///C:/Users/papa/Documents/projet-dev/Options/index3.html" class="btn-mes-commandes">Mes
+        commandes</a>
+
+
+
+
+      <ul>
+        <li><a href="file:///C:/Users/papa/Documents/projet-dev/Accueil/index.html?#">Accueil</a></li>
+        <li class="deroulant"><a href="file:///C:/Users/papa/Documents/projet-dev/LaBoutique/index.html">La boutique
+            &ensp;</a>
+          <ul class="sous">
+            <li><a href="file:///C:/Users/papa/Documents/projet-dev/LaBoutique/index5.html">Qui sommes-nous ?</a></li>
+            <li><a href="file:///C:/Users/papa/Documents/projet-dev/LaBoutique/index3.html">Contact</a></li>
+            <li><a href="file:///C:/Users/papa/Documents/projet-dev/LaBoutique/index2.html">Recrutement</a></li>
+            <li><a href="file:///C:/Users/papa/Documents/projet-dev/LaBoutique/index4.html">Evenements</a></li>
+            <li><a href="file:///C:/Users/papa/Documents/projet-dev/LaBoutique/index6.html">Presse</a></li>
+          </ul>
+        </li>
+        <li class="deroulant"><a href="file:///C:/Users/papa/Documents/projet-dev/NosProduits/index.html">Nos Produits
+            &ensp;</a>
+          <ul class="sous">
+            <li><a href="file:///C:/Users/papa/Documents/projet-dev/NosProduits/index2.html">Voir toutes les gammes</a>
+            </li>
+            <li><a href="file:///C:/Users/papa/Documents/projet-dev/NosProduits/index3.html">Homme</a></li>
+            <li><a href="file:///C:/Users/papa/Documents/projet-dev/NosProduits/index4.html">Femme</a></li>
+          </ul>
+        </li>
+        <ul>
+          <li><a href="file:///C:/Users/papa/Documents/projet-dev/Actualites/index.html">Actualités</a></li>
+          <li><a href="file:///C:/Users/papa/Documents/projet-dev/Avis/index.html">Avis</a></li>
+          <li><a href="file:///C:/Users/papa/Documents/projet-dev/PointsDeVente/index.html">Points de Vente</a></li>
+          <li><a href="file:///C:/Users/papa/Documents/projet-dev/Reservation/index.html">Réservation</a></li>
+          <li class="deroulant"><a href="">Options
+              &ensp;</a>
+            <ul class="sous">
+              <li><a href="#">Choisir la langue (Français ou Anglais) </a></li>
+              <li><a href="file:///C:/Users/papa/Documents/projet-dev/Options/index2.html">Voir son panier</a></li>
+              <li><a href="file:///C:/Users/papa/Documents/projet-dev/Options/index4.html">Mon compte</a></li>
+              <li><a href="file:///C:/Users/papa/Documents/projet-dev/Options/index3.html">Mes commandes</a></li>
+            </ul>
+
+        </ul>
+
+      </ul>
+    </nav>
+
+
+  </header><br><br>
+
+
+<main>
+    <h2>Paiement sécurisé</h2> 
+    
+      <form action="https://nomdelapasserelledepaiement.com/paiement" method="post">
+        <input type="hidden" name="montant" value="100.00">
+        <input type="hidden" name="devise" value="EUR">
+        <input type="hidden" name="description" value="Achat en ligne">
+        <input type="hidden" name="reference" value="ABC123">
+        <input type="text" name="numero_carte" placeholder="Numéro de carte">
+        <input type="text" name="date_expiration" placeholder="Date d'expiration">
+        <input type="text" name="cvv" placeholder="CVV">
+     </form>
+     <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="VOTRE_ID_DE_BOUTON_HÉBERGÉ">
+      <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_buynowCC_LG.gif" borde="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+      <img alt="" borde="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+    </form>
+     
+</main>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<footer>
+  <nav>
+    <ul>
+      <li><a href="">Liens divers</a></li>
+      <li><a href="file:///C:/Users/papa/Documents/projet-dev/LaBoutique/index3.html">Contact</a></li>
+      <li><a href="file:///C:/Users/papa/Documents/projet-dev/LiensDivers/index2.html" target="_blank">Mentions
+          Légales</a></li>
+      <li><a href="file:///C:/Users/papa/Documents/projet-dev/Accueil/index5.html">Conditions Générales de Vente</a>
+      </li>
+      
+
+      <li><a href="file:///C:/Users/papa/Documents/projet-dev/Accueil/index3.html">s'inscrire à la newsletter</a></li>
+      <li><a href="">Partage</a></li>
+      <ul class="sous">
+
+      </ul>
+  </nav><br><br><br>
+  <nav>
+    <ul>
+      <li><a href="">01 01 01 01 01 (appel gratuit)</a></li>
+      <li><a href="file:///C:/Users/papa/Documents/projet-dev/Accueil/index4.html">Satisfait ou remboursé</a></li>
+      <li><a href="">Besoin d'aide ? </a></li>
+      <li><a href="file:///C:/Users/papa/Documents/projet-dev/Accueil/index2.html">Paiement sécurisé</a></li>
+      <li><a href="file:///C:/Users/papa/Documents/projet-dev/LaBoutique/index5.html">Qui sommes nous ?</a></li>
+      <li><a href="">Imprimer la page</a></li>
+      
+
+      <ul class="sous">
+
+      </ul>
+  </nav>
+
+
+</footer>
+</body>
+</html>
